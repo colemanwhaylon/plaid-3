@@ -731,9 +731,9 @@ dependencies = [
 
 [[package]]
 name = "log"
-version = "0.4.11"
+version = "0.4.13"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "4fabed175da42fed1fa0746b0ea71f412aa9d35e76e95e59b192c64b9dc2bf8b"
+checksum = "fcf3805d4480bb5b86070dcfeb9e2cb2ebc148adb753c5cca5f884d1d65a42b2"
 dependencies = [
  "cfg-if 0.1.10",
 ]
@@ -973,23 +973,6 @@ name = "percent-encoding"
 version = "2.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "d4fd5641d01c8f18a23da7b6fe29298ff4b55afcccdf78973b24cf3175fee32e"
-
-[[package]]
-name = "phrases"
-version = "0.1.0"
-dependencies = [
- "chrono",
- "dotenv",
- "futures",
- "once_cell",
- "reqwest 0.10.10",
- "reqwest 0.9.24",
- "secrecy",
- "serde",
- "serde_json",
- "tokio 0.1.22",
- "tokio 0.2.24",
-]
 
 [[package]]
 name = "pin-project"
@@ -1362,6 +1345,23 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "138e3e0acb6c9fb258b19b67cb8abd63c00679d2851805ea151465464fe9030a"
 dependencies = [
  "semver",
+]
+
+[[package]]
+name = "rustplaidapi"
+version = "0.1.0"
+dependencies = [
+ "chrono",
+ "dotenv",
+ "futures",
+ "once_cell",
+ "reqwest 0.10.10",
+ "reqwest 0.9.24",
+ "secrecy",
+ "serde",
+ "serde_json",
+ "tokio 0.1.22",
+ "tokio 0.2.24",
 ]
 
 [[package]]
