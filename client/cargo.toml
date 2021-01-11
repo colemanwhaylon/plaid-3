@@ -1,0 +1,9 @@
+[package]
+name="plaidrustclient"
+version = "0.1.0"
+authors = ["Whaylon Coleman <colemanwhaylon@yahoo.com>"]
+edition = "2018"       # The edition of the target.
+
+[dependencies]
+rand = "0.3.12"
+phrases = {path = "../plaidrustapi" }
