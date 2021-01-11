@@ -1,0 +1,16 @@
+Step #1
+git clone https://github.com/plaid/quickstart.git
+cd quickstart/node
+npm install
+
+Step #2
+APP_PORT=8000 \
+PLAID_CLIENT_ID=5ff6df15354a870014625074 \
+PLAID_SECRET=fa3d4f091e694793e5fe1a5f770542 \
+PLAID_PRODUCTS=transactions \
+PLAID_COUNTRY_CODES=US \
+PLAID_ENV=sandbox \
+node index.js
+
+Step #3
+open http://localhost:8000
